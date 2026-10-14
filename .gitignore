@@ -30,8 +30,23 @@ yarn-debug.log*
 yarn-error.log*
 .pnpm-debug.log*
 
-# env files (can opt-in for committing if needed)
+# Local environment values
 .env*
+!.env.example
+
+# Generated test output and local assistant settings
+/playwright-report/
+/playwright-results/
+/test-results/
+/.claude/
+/tmp_print
+
+# Local database and backup files
+*.db
+*.sqlite
+*.sqlite3
+*.bak
+*.dump
 
 # vercel
 .vercel

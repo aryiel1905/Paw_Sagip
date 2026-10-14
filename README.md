@@ -149,7 +149,7 @@ Prerequisites:
 npm install
 ```
 
-2. Create `.env.local` with your Supabase credentials
+2. Copy `.env.example` to `.env.local` and replace the placeholders with your own Supabase values. Never commit `.env.local` or a service role key.
 
 ```bash
 # Browser (public)
